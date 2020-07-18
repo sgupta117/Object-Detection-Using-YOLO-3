@@ -15,7 +15,7 @@ conda env create -f pytorch_env.yml
 conda install pytorch torchvision cpuonly -c pytorch
 ```
 
-# Test or run the program:
+# Test or Run the program:
 Run the following command with optional commandline arguments to perform detections on images in 'images' folder. 
 By default the 'result' folder will store the output.
 ```
@@ -32,3 +32,6 @@ python detect_video.py
 ![](https://github.com/sgupta117/Object-Detection-Using-YOLO-3/blob/master/result/det_messi.jpg)
 ![](https://github.com/sgupta117/Object-Detection-Using-YOLO-3/blob/master/result/det_herd_of_horses.jpg)
 
+
+
+Thanks and Happy Coding!!! :)
