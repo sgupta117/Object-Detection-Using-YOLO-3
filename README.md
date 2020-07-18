@@ -1,18 +1,16 @@
 # Yolo-V3
 
-yolov3.cfg (236 MB COCO Yolo v3) - requires 4 GB GPU-RAM
+=> You can download the yolo v3 weights from here: https://pjreddie.com/media/files/yolov3.weights
 
-You can download the yolo v3 weights from here: https://pjreddie.com/media/files/yolov3.weights
+# Dependencies libraries and python packages - How to install:
 
-Dependencies libraries and python packages - How to install:
-
- - Use file "pytorch_env.yml", it has all the required libraries like Pytorch , numpy and all, Use below commands in anaconda prompt to intall it and create your own virtual envronment.
+ => Use file "pytorch_env.yml", it has all the required libraries like Pytorch , numpy and all, Use below commands in anaconda prompt to intall it and create your own virtual envronment.
  
 ```
 conda env create -f pytorch_env.yml 
 ```
 
-- If you are getting some errors while installing torch then use below command to install the cpu version of it.
+=> If you are getting some errors while installing torch then use below command to install the cpu version of it.
 ```
 conda install pytorch torchvision cpuonly -c pytorch
 ```
